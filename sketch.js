@@ -8,13 +8,13 @@ var car1Img,car2Img,car3Img,car4Img,ground,track;
 var lastback;
 
 function preload(){
-car1Img=loadImage("../images/car1.png");
-car2Img=loadImage("../images/car2.png");
-car3Img=loadImage("../images/car3.png");
-car4Img=loadImage("../images/car4.png");
-track=loadImage("../images/track.jpg");
-ground=loadImage("../images/ground.png");
-lastback=loadImage("../images/lastbg.jpg")
+car1Img=loadImage("images/car1.png");
+car2Img=loadImage("images/car2.png");
+car3Img=loadImage("images/car3.png");
+car4Img=loadImage("images/car4.png");
+track=loadImage("images/track.jpg");
+ground=loadImage("images/ground.png");
+lastback=loadImage("images/lastbg.jpg")
 }
 function setup(){
   database = firebase.database();
